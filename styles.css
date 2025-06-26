@@ -45,12 +45,7 @@ ul.contact-info {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-/* Remove gray background for email and LinkedIn */
-.contact-info .contact-item:nth-child(1),
-.contact-info .contact-item:nth-child(3) {
-    background-color: transparent;
+    background-color: transparent; /* add this line */
 }
 
 .contact-info i {
