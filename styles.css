@@ -38,14 +38,13 @@ ul.contact-info {
 }
 
 .contact-info .contact-item {
-    margin: 20px 0;
-    padding: 10px;
-    border: 2px solid #333;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: transparent; /* add this line */
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
 }
 
 .contact-info i {
