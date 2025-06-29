@@ -2,77 +2,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Garamond&display=swap');
 
 body {
-    font-family: 'Garamond', serif;
-    background: linear-gradient(to bottom right, #fdfcf8, #f5f3ef);
-    color: #333;
-    margin: 0;
-    padding: 50px;
-    text-align: center;
+  font-family: 'Garamond', serif;
+  background: linear-gradient(to bottom right, #fdfcf8, #f5f3ef);
+  color: #333;
+  margin: 0;
+  padding: 50px;
+  text-align: center;
 }
 
 .container {
-    max-width: 600px;
-    margin: auto;
+  max-width: 600px;
+  margin: auto;
 }
 
 h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 
 h2 {
-    font-size: 2rem;
-    margin-top: 40px;
-    margin-bottom: 20px;
+  font-size: 2rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 p {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
 }
 
 ul.contact-info {
-    list-style: none;
-    padding: 0;
-    font-size: 1.2rem;
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
 }
 
 .contact-info .contact-item {
-  border: 2px solid #333;
-  border-radius: 10px;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  padding: 0;
+  display: inline; /* Let links flow naturally */
+  border: none;
   background-color: transparent;
 }
 
 .contact-info i {
-    margin-right: 10px;
-    color: #666;
+  margin-right: 10px;
+  color: #666;
 }
 
 .contact-info a {
-    text-decoration: none;
-    padding: 5px;
-    border-bottom: 1px dotted #666;
+  text-decoration: none;
+  padding: 5px;
+  border-bottom: 1px dotted #666;
 }
 
 .contact-info a:hover {
-    color: #555;
-    border-bottom: 1px solid #555;
+  color: #555;
+  border-bottom: 1px solid #555;
 }
 
 a {
-    display: inline-block;
-    margin: 20px 0;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 a:hover {
-    background-color: #555;
+  background-color: #555;
 }
+
