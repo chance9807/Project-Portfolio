@@ -35,30 +35,36 @@ ul.contact-info {
   list-style: none;
   padding: 0;
   font-size: 1.2rem;
+  text-align: left;
+  display: inline-block;
 }
 
 .contact-info .contact-item {
-  padding: 0;
-  display: inline; /* Let links flow naturally */
+  margin: 10px 0;
   border: none;
+  padding: 0;
   background-color: transparent;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .contact-info i {
-  margin-right: 10px;
   color: #666;
 }
 
 .contact-info a {
   text-decoration: none;
-  padding: 5px;
+  padding-bottom: 2px;
   border-bottom: 1px dotted #666;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
 .contact-info a:hover {
-  color: #555;
-  border-bottom: 1px solid #555;
+  color: #222;
+  border-bottom: 1px solid #222;
 }
+
 
 a {
   display: inline-block;
